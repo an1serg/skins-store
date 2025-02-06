@@ -2,8 +2,8 @@
 
 ## 1. Клонирование репозитория
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/an1serg/skins-store.git
+cd skins-store
 ```
 
 ## 2. Установка зависимостей
@@ -14,7 +14,7 @@ npm install
 ## 3. Настройка базы данных
 Убедитесь, что PostgreSQL и Redis запущены.
 
-Создайте базу данных `mydb` в PostgreSQL.
+Создайте базу данных в PostgreSQL.
 
 Настройте подключение к базе данных в файле `src/db.ts`:
 ```typescript
